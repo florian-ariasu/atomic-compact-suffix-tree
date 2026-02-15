@@ -1,4 +1,4 @@
-# Atomic Compact Suffix Tree
+# Atomic and Compact Suffix Tree Implementation
 
 > **An all-in-one implementation of atomic and compact suffix trees for
 > advanced string processing and structural analysis.**
