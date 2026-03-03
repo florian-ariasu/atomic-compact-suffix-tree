@@ -23,11 +23,11 @@ This repository contains a complete implementation of **Suffix Trees**, includin
 
 **Approach**
 
-- **Atomic Insertion** — Each edge represents a single character.
-- **Suffix Decomposition** — Every input string is decomposed into all possible suffixes.
+- **Atomic Insertion** — Each edge represents a single character
+- **Suffix Decomposition** — Every input string is decomposed into all possible suffixes
   Example: `"banana"` → `"banana$"`, `"anana$"`, `"nana$"`, `"ana$"`, `"na$"`, `"a$"`, `"$"`
-- **Termination Symbol** — Uses `$` to ensure each suffix ends in a unique leaf.
-- **BFS Traversal Output** — The tree is displayed level-by-level to visualize its structure.
+- **Termination Symbol** — Uses `$` to ensure each suffix ends in a unique leaf
+- **BFS Traversal Output** — The tree is displayed level-by-level to visualize its structure
 
 **Complexity**
 
